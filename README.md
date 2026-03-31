@@ -90,6 +90,7 @@ fi
 
 echo "Recording to: $OUTPUT_DIR/recording_$DATE.mp4"
 ffmpeg -y \
+    -user_agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
     -headers "Referer: https://www.881903.com/live/903" \
     -i "$STREAM_URL" \
     -c copy \
