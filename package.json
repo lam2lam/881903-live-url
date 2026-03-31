@@ -1,0 +1,14 @@
+{
+  "name": "881903-live-url",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-vercel-local.mjs",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "^143.0.4",
+    "playwright-core": "^1.58.2"
+  }
+}
